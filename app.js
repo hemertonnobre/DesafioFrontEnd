@@ -11,4 +11,4 @@
  app.get('/', (req, res) => {
    res.send('App - Intro Star Wars');
  });
- app.listen(3000, () => console.log('Aplicação executando na porta 3000!'));
+ app.listen($PORT, () => console.log('Aplicação executando na porta '+$PORT));

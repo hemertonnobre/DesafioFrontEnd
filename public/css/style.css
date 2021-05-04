@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/AuroraBoreal.jpg);
+    width: auto;
+    height: auto;  
+}
+.logo-body{
+    margin:20px;
+}
+.leed-modal::after{
+    content:"";
+    position: absolute;
+    background-color: rgba( 7, 7, 7, 0.699);
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.leed-modal{
+    display: none;
+    right: 100vh;
+}
+.body-modal{
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 450px;
+    margin: auto;   
+    width: 100%;
+    max-width:380px;
+    text-align: center;
+    padding: 10px;
+    z-index: 2;
+}
+.closearea a i{
+    text-decoration: none;
+    color: #000;
+    font-size:20px;
+}
